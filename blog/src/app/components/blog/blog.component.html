@@ -1,0 +1,6 @@
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div *ngFor="let item of items" class="col">
+      <blog-item [image]="item.image" [text]="item.text">
+      </blog-item>
+  </div>
+</div>
